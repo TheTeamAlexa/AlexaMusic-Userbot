@@ -2,7 +2,6 @@
 
 Asad Alexa VC Bot Is A Telegram Bot Project That's Allow You To Play Audio And Video Music On Telegram Voice Chat Group.
 
-<p align="center"><a href=""> <img src="https://img.shields.io/badge/Copy%20Paster%20Ki%20Gand%20Main%20Land%20🙄😡%20Its%20Your%20Dad-black?style=for-the-badge&logo=heroku" width="720" height="58.45"/></a></p>
 
 <p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/65f6a615fa340c96d52f8.jpg" width="300"></a></p>
 <p align="center">
