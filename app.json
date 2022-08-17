@@ -1,0 +1,51 @@
+{
+    "name": "Asad Alexa Vc Userbot",
+    "description": "A Telegram Userbot To Play Audio And Video Songs in Voice Chat",
+    "logo": "https://telegra.ph/file/7fbaae079e71659672dde.jpg",
+    "keywords": [
+        "Telegram",
+        "VCBot",
+        "MusicPlayer"
+    ],
+    "repository": "https://github.com/Lost-In-Dark/TG-MusicPlayer",
+    "env": {
+        "SESSION": {
+            "description": "Pyrogram String Session @Pyrogram_String_Bot",
+            "required": true
+        },
+        "API_ID": {
+            "description": "my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "my.telegram.org",
+            "required": true
+        },
+        "HNDLR": {
+            "description": "Handler | Default (/)",
+            "value": "/",
+            "required": false 
+        },
+        "GROUP_MODE": {
+            "description": "Anyone can play, if set to True. Set it to False to restrict play access to Sudo Users/Contacts only",
+            "value": "True",
+            "required": true 
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}

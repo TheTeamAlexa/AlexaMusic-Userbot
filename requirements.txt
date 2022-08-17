@@ -1,0 +1,7 @@
+TgCrypto
+git+https://github.com/pyrogram/pyrogram@master
+py-tgcalls==0.8.1
+asyncio
+youtube-search-python
+https://github.com/lanegramling/youtube-dl/archive/refs/heads/fix-function-sig-parser.zip
+python-dotenv
