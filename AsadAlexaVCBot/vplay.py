@@ -15,7 +15,7 @@ from pytgcalls.types.input_stream.quality import (
     LowQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-
+import yt_dlp
 
 def ytsearch(query):
     try:
@@ -37,7 +37,7 @@ def ytsearch(query):
 # https://github.com/pytgcalls/pytgcalls/blob/dev/example/youtube_dl/youtube_dl_example.py
 async def ytdl(link):
     proc = await asyncio.create_subprocess_exec(
-        "youtube-dl",
+        "yt-dlp",
         "-g",
         "-f",
         # CHANGE THIS BASED ON WHAT YOU WANT
