@@ -1,5 +1,5 @@
 TgCrypto
-git+https://githu
+pyrogram==1.4.16
 py-tgcalls==0.8.1
 asyncio
 youtube-search-python
